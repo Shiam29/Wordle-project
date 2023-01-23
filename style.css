@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+}
+div {
+    text-align: center;
+}
+.square {
+    width: 64px;
+    height: 64px;
+    border: 1px solid black;
+    margin: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    
+}
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    
+}
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+
+}
+.row3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+.row4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+.keyboard {
+    font-size: 10px;
+    margin-top: 5px; 
+}
+.key {
+    width: 64px;
+    height: 64px;
+}
