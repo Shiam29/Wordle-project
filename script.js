@@ -26,13 +26,13 @@ keyboard.addEventListener("click", (event) => {
             }
         }
         else if (event.target.textContent === "DELETE") {
-            if(currentSquare>0){
-                squares[(currentRow*5) + currentSquare-1].textContent = "";
+            if(currentSquare > 0){
+                squares[(currentRow*5) + currentSquare - 1].textContent = "";
                 currentSquare = (currentSquare - 1);
             }
         }
         else if(currentSquare < 5){
-            squares[(currentRow*5) + currentSquare].textContent = event.target.textContent;
+            squares[(currentRow * 5) + currentSquare].textContent = event.target.textContent;
             currentSquare = (currentSquare + 1);
         }
     }
